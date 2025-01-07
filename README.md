@@ -133,3 +133,16 @@ projects like django, scikitlearn, matplotlib, etc.
 - *Hands down, this is the best AI coding assistant tool so far.* -- [IndyDevDan](https://www.youtube.com/watch?v=MPYFPvxfGZs)
 - *[Aider] changed my daily coding workflows. It's mind-blowing how a single Python application can change your life.* -- [maledorak](https://discord.com/channels/1131200896827654144/1131200896827654149/1258453375620747264)
 - *Best agent for actual dev work in existing codebases.* -- [Nick Dobos](https://twitter.com/NickADobos/status/1690408967963652097?s=20)
+
+## Testing and Coverage
+
+Aider has a comprehensive suite of tests to ensure its quality and reliability.  The tests are located in the `tests` directory and the `benchmark` directory. There are approximately 342 unit tests and integration tests.
+
+The tests are categorized as follows:
+
+*   **basic:** Tests core functionalities, including the main function, coders, commands, I/O, models, and repository interactions.  Located in `tests/basic`.
+*   **browser:** Tests the browser integration features. Located in `tests/browser`.
+*   **help:** Tests the help system. Located in `tests/help`.
+*   **scrape:** Tests the web scraping functionality. Located in `tests/scrape`.
+*   **benchmarks:** Performance benchmarks for various operations. Located in `benchmark`.
+
